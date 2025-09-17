@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: platform-infrastructure
+  description: XRDs y Compositions de Crossplane
+  tags: [crossplane, compositions, xrd]
+spec:
+  type: infrastructure-definitions
+  lifecycle: production
+  owner: group:platform-team
+  system: platform
